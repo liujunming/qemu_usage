@@ -1,0 +1,16 @@
+#!/bin/bash
+        set -x
+
+	switch=$(brctl show| sed -n 2p |awk '{print $1}')
+
+        if [ -n $switch ];then
+                tunctl -u `whoami` -t $1
+                ip link set $1 up
+        		#/sbin/ifconfig $1 0.0.0.0 up
+                brctl addif $switch $1
+                exit 0
+        else
+                echo Error: no interface specified
+                exit 1
+        fi
+
