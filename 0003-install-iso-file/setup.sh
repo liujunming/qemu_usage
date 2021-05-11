@@ -4,7 +4,7 @@
     -m 2048 \
     -smp 2 \
     -cpu host \
-     -drive format=raw,file=win10-ltsc.img \
+    -drive format=raw,file=win10-ltsc.img \
     -cdrom ./Windows.iso \
     -device qemu-xhci,id=xhci \
     -device usb-host,vendorid=0x05e3,productid=0x0608 \
