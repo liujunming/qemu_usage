@@ -7,6 +7,9 @@ This should be your mouse and keyboard vendorid and productid.
 
 You can get this information from `lsusb` command.
 
+Tips(???):
+If you want to use OVMF later, in windows guest, you can [convert MBT into GPT](https://docs.microsoft.com/en-us/windows-server/storage/disk-management/change-an-mbr-disk-into-a-gpt-disk).
+
 
 Reference:
 
