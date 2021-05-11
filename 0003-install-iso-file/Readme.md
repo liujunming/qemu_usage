@@ -7,8 +7,6 @@ This should be your mouse and keyboard vendorid and productid.
 
 You can get this information from `lsusb` command.
 
-未指定bios为OVMF的话，默认使用seabios，那么硬盘分区格式就是MBR而非GPT。
-
 
 Reference:
 
