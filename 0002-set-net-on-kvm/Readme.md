@@ -19,7 +19,7 @@ network:
            interfaces: [eno1]
 ```
 
-**eno1** should be you network interface
+**eno1** should be you network interface name
 
 ```shell
 vim /etc/qemu-ifup
