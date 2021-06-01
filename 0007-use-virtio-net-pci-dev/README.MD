@@ -7,6 +7,9 @@ x86_64-softmmu/qemu-system-x86_64 \
   -device virtio-net-pci,netdev=net0
 ```
 
+
 ---
 参考资料:
-https://www.linux-kvm.org/page/Virtio
+
+1. https://www.linux-kvm.org/page/Virtio
+1. https://wiki.qemu.org/Documentation/Networking
